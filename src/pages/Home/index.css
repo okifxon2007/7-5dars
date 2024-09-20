@@ -1,0 +1,176 @@
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.headdf button{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 270px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.headdf h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blue;
+    color: rgb(228, 255, 255);
+    width: 80px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.formabir{
+    padding-left: 90px;
+    padding-top: 20px;
+    gap: 70px;
+}
+
+.forma form{
+    margin-top: 40px;
+    width: 1200px;
+    height: 250px;
+    background-color: rgb(228, 255, 255);
+}
+.forma label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+}
+.forma form{
+    display:  flex;
+}
+.forma form select{
+    width: 340px;
+    height: 35px;
+    border-radius: 5px;
+}
+.forma form input{
+    border-radius: 5px;
+    width: 300px;
+    height: 30px;
+}
+.forma form button{
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    background-color: blue;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.hombut {
+    gap: 15px;
+    display: flex;
+    position: absolute;
+    transform: translateX(-250px);
+}
+.btbir{
+    background-color: red !important;
+    cursor: pointer;
+}
+
+.prodone{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px;
+}
+
+.card{
+    width: 330px;
+    height: 380px;
+    border: 2px solid transparent;
+    box-shadow: 1px 1px 3px 1px rgb(230, 229, 229);
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card p{
+    color: rgb(1, 1, 56);
+}
+.card img{
+    border-radius: 20px;
+    width: 100%;
+    height: 260px;
+}
+.prodtwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 90px;
+    margin-top: 30px;
+}
+.card{
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+
+.loader {
+    width: var(--dim);
+    height: var(--dim);
+    position: relative;
+    animation: spin988 2s linear infinite;
+  }
+  
+  .loader .circle {
+    --color: #333;
+    --dim: 1.2rem;
+    width: var(--dim);
+    height: var(--dim);
+    background-color: var(--color);
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  .loader .circle:nth-child(1) {
+    top: 0;
+    left: 0;
+  }
+  
+  .loader .circle:nth-child(2) {
+    top: 0;
+    right: 0;
+  }
+  
+  .loader .circle:nth-child(3) {
+    bottom: 0;
+    left: 0;
+  }
+  
+  .loader .circle:nth-child(4) {
+    bottom: 0;
+    right: 0;
+  }
+  
+  @keyframes spin988 {
+    0% {
+      transform: scale(1) rotate(0);
+    }
+  
+    20%, 25% {
+      transform: scale(1.3) rotate(90deg);
+    }
+  
+    45%, 50% {
+      transform: scale(1) rotate(180deg);
+    }
+  
+    70%, 75% {
+      transform: scale(1.3) rotate(270deg);
+    }
+  
+    95%, 100% {
+      transform: scale(1) rotate(360deg);
+    }
+  }

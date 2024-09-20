@@ -1,0 +1,52 @@
+.headdf{
+    display: flex;
+}
+.header{
+    background-color: rgb(228, 255, 255);
+    
+}
+.headdf ul{
+    display: flex;
+    list-style-type: none;
+    gap: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 45px;
+    margin-left: 180px;
+}
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+}
+.headdf button{
+    width: 50px;
+    height: 50px;
+    margin-top: 30px;
+    margin-left: 270px;
+    font-size: 24px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.headdf h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blue;
+    color: rgb(228, 255, 255);
+    width: 80px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.forma form{
+    margin-top: 40px;
+    width: 1200px;
+    height: 250px;
+    background-color: rgb(228, 255, 255);
+}
+.forma form{
+    display:  flex;
+}
+.forma form select{
+    width: 250px;
+}
