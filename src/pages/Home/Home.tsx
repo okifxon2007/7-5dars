@@ -141,6 +141,7 @@ const Home = () => {
                             filteredProd.map((produc) => (
                                 <div onClick={handleNav} className="card" key={produc.id} data-value={produc.id}>
                                     <img src={produc.attributes.image} alt="" />
+                                    <br />
                                     <h2>{produc.attributes.title}</h2>
                                     <p>${produc.attributes.price}</p>
                                 </div>

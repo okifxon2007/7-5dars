@@ -1,6 +1,17 @@
 import React from 'react';
-import '../card/index.css'
+import '../card/index.css';
+
 const Header: React.FC = () => {
+  function handdark() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    
+    if (currentTheme === 'light') {
+      document.documentElement.setAttribute('data-theme', 'dark');
+    } else {
+      document.documentElement.setAttribute('data-theme', 'light');
+    }
+  }
+
   return (
    <div className="header">
      <div className='headdf conta'>
@@ -13,7 +24,9 @@ const Header: React.FC = () => {
         <li>Checkout</li>
         <li>Orders</li>
       </ul>
-      <button>D</button>
+      <button onClick={handdark}>
+        <i className="fa-solid fa-moon"></i>
+      </button>
     </div>
    </div>
   );

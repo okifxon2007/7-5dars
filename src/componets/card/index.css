@@ -2,6 +2,8 @@
     display: flex;
 }
 .header{
+    margin-top: 20px;
+    height: 100px; 
     background-color: rgb(228, 255, 255);
     
 }
@@ -31,11 +33,13 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: blue;
     color: rgb(228, 255, 255);
-    width: 80px;
+    width: 60px;
+    margin-top: 20px;
     height: 60px;
     padding-top: 10px;
     padding-left: 20px;
     border-radius: 10px;
+    font-size: 30px;
 }
 
 .forma form{

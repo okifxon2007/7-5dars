@@ -89,6 +89,9 @@
     border-radius: 10px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.card h2{
+  font-size: 25px;
+}
 .card p{
     color: rgb(1, 1, 56);
 }

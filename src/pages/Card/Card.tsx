@@ -84,7 +84,10 @@ const Card = () => {
             <p>${product.attributes.price}</p>
            <h5> <span>{product.attributes.description}</span></h5>
             <div className="amount">
+              <br />
+              <br />
               <label>Amount</label>
+              <br />
               <select>
                 <option>1</option>
                 <option>2</option>
